@@ -522,27 +522,21 @@ html {
 #club{
   background:linear-gradient(46deg,#3b054a, #032657);
   background-size: cover;
-  /* -webkit-mask-image: linear-gradient(black, transparent);
-  mask-image: linear-gradient (black, transparent); */
 }
-#club:hover h4{
+/* #club:hover h4{
   opacity:1 !important;
   transition:1s ease all;
 }
 #club:hover{
   transition: 0.5s ease all;
   color:white;
-  /* -webkit-mask-image: linear-gradient(black, transparent);
-  mask-image: linear-gradient (black, transparent); */
-}
+} */
 
 #research{
   background:linear-gradient(46deg,#3b054a, #032657);
   background-size: cover;
-  /* -webkit-mask-image: linear-gradient(black, transparent);
-  mask-image: linear-gradient(black, transparent); */
 }
-#research:hover h4{
+/* #research:hover h4{
   opacity:1 !important;
   transition: 1s ease all;
 }
@@ -551,7 +545,7 @@ html {
   color:white;
   /* -webkit-mask-image: linear-gradient(white, transparent);
   mask-image: linear-gradient(white, transparent); */
-}
+} */
 
 #camps{
   background:linear-gradient(46deg,#3b054a, #032657);
@@ -559,7 +553,7 @@ html {
   /* -webkit-mask-image: linear-gradient(black, transparent);
   mask-image: linear-gradient(black, transparent); */
 }
-#camps:hover h4{
+/* #camps:hover h4{
   opacity:1 !important;
   transition:1s ease all;
 }
@@ -568,24 +562,20 @@ html {
   color:white;
   /* -webkit-mask-image: linear-gradient(white, transparent);
   mask-image: linear-gradient(white, transparent); */
-}
+} */
 
 #astrophoto{
   background:linear-gradient(46deg,#3b054a, #032657);
   background-size: cover;
-  /* -webkit-mask-image: linear-gradient(black, transparent);
-  mask-image: linear-gradient(black, transparent); */
 }
-#astrophoto:hover h4{
+/* #astrophoto:hover h4{
   opacity:1 !important;
   transition:1s ease all;
 }
 #astrophoto:hover{
   transition: 1s ease all;
   color:white;
-  /* -webkit-mask-image: linear-gradient(white, transparent);
-  mask-image: linear-gradient(white, transparent); */
-}
+} */
 
 
 @keyframes fadein{

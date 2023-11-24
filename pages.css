@@ -36,7 +36,7 @@ body {
 #navbar {
   z-index: 1000;
   position: -webkit-sticky;
-  position: sticky2
+  position: sticky2;
   transition: 1s ease all;
 }
 
@@ -543,8 +543,8 @@ html {
 #research:hover{
   transition: 1s ease all;
   color:white;
-  /* -webkit-mask-image: linear-gradient(white, transparent);
-  mask-image: linear-gradient(white, transparent); */
+  -webkit-mask-image: linear-gradient(white, transparent);
+  mask-image: linear-gradient(white, transparent);
 } */
 
 #camps{
@@ -560,8 +560,8 @@ html {
 #camps:hover{
   transition: 1s ease all;
   color:white;
-  /* -webkit-mask-image: linear-gradient(white, transparent);
-  mask-image: linear-gradient(white, transparent); */
+  -webkit-mask-image: linear-gradient(white, transparent);
+  mask-image: linear-gradient(white, transparent);
 } */
 
 #astrophoto{

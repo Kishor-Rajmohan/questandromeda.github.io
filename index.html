@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
+
+<head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,33 +12,24 @@
 </head>
 
 <body>
-  <div id="backdrop"></div>
-  <div id="backdrop2"></div>
-  <div style="max-height: 100vh; overflow: hidden;">
-    <div class="homebanner" id="banner">
-      <div>
-        <h1 id="text">Quest Andromeda</h1>
-        <img src="./images/Logo.png" alt="QA Logo">
-      </div>
-      <video id="background-video" autoplay loop muted poster="./images/background.mp4">
-      <source src="./images/background.mp4" type="video/mp4">
-      </video>
-      <div id="arrow"><a href="#goals"><img src="./images/arrow.png" alt="arrow"></a></div>
+  <!-- <div id="backdrop"></div>
+  <div id="backdrop2"></div> -->
+  <div class="homebanner" id="banner">
+    <h1 id="text">Quest Andromeda</h1>
+    <img src="./images/Logo.png" id="QALOGO" alt="QA Logo">
+    <h3>Quest Andromeda has dissolved into OAAO</h3>
+    <div>
+      <h3 id="redirecting">Redirecting To <a href="https://oaaoinfo.org/"><u>oaaoinfo.org</u></a><span id="countdown">...</span></h3>
     </div>
   </div>
 
-  <a href="#goals" onclick="reveal()">
-    <div style="max-height: 100vh; overflow: hidden;">
-      <div id="spacer">
-      </div>
-    </div>
-  </a>
-  
-  <navbar id="navbar" style="z-index: 100000;">
+  <!-- <navbar id="navbar" style="z-index: 100000;">
     <ul class="topnav">
       <li style="margin: 0px 10%; margin-left: 15%;">
         <a class="active" href="./index.html" style="background-color: transparent; color: white;">
-        <img src="./images/Logo.png" alt="QA Logo"> <span style="font-size: 18px;" id="logo">Quest Andromeda</span></a></li>
+          <img src="./images/Logo.png" alt="QA Logo"> <span style="font-size: 18px;" id="logo">Quest
+            Andromeda</span></a>
+      </li>
       <li><a class="active" href="./index.html">Home</a></li>
       <li><a href="./join.html">Join the Team</a></li>
       <li><a href="./club.html">Start a Club</a></li>
@@ -48,183 +40,190 @@
 
   <section id="goals" style="z-index: -2; padding-top:6vh !important;">
     <div class="container">
-      <h1><div style = "display: inline; -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-image: url(./images/background.gif); background-size: cover;">Quest Andromeda</div></h1>
-      <h3 style = "margin-top:3vh;">Quest Andromeda is an organization that aims to proliferate passion in astronomy and astrophysics. The youth interest in STEM lies, in the majority, within fields like physics, math, and biology. This stems from a few individual problems; 
+      <h1>
+        <div
+          style="display: inline; -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-image: url(./images/background.gif); background-size: cover;">
+          Quest Andromeda</div>
+      </h1>
+      <h3 style="margin-top:3vh;">Quest Andromeda is an organization that aims to proliferate passion in astronomy and
+        astrophysics. The youth interest in STEM lies, in the majority, within fields like physics, math, and biology.
+        This stems from a few individual problems;
       </h3>
       <h3>1. There is a lack of focus on education in astronomy</h3>
       <h3>2. There is great difficulty in finding resources to learn astronomy relative to other fields</h3>
       <h3>3. The outlook on the opportunities that lie within the field is shallow and inadequate</h3>
     </div>
-    <div id = "action" class="container">
+    <div class="container">
+      <h1>Our Departments</h1>
+      <div class="twoSections">
+        <div class="twoSecCard">
+          <h1>OAAO</h1>
+          <h5>OAAO is a world renowned competition that gathers the top astronomy talents together to compete for the
+            world champion title for astronomy.</h5>
+        </div>
+        <div class="twoSecCard">
+          <h2>Camps</h2>
+          <div class="twoSections">
+            <div class="twoSecCard">
+              <h3>Camps</h3>
+            </div>
+            <div class="twoSecCard">
+              <h3>Astrophysics</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="action" class="container">
 
-      <div class = "image-text">
-        <div class = "action-text">
-          <h1 style = "margin-bottom:2vh;">Club Network</h1>
-          <h3>At Quest Andromeda, we are starting a national network of school clubs for astronomy that support each other, with helpful resources and guidance on how to get started. <a href = "./club.html">Start a club now!</a></h3>
+      <div class="image-text">
+        <div class="action-text">
+          <h1 style="margin-bottom:2vh;">Club Network</h1>
+          <h3>At Quest Andromeda, we are starting a national network of school clubs for astronomy that support each
+            other, with helpful resources and guidance on how to get started. <a href="./club.html">Start a club
+              now!</a></h3>
         </div>
-        <div class = "action-img" style = "background-image: url(./images/cmu.jpg);"></div>
+        <div class="action-img" style="background-image: url(./images/cmu.jpg);"></div>
       </div>
-      
-      <div class = "image-text">
-        <div class = "action-img" style = "background-image: url(./images/camp.jpg);"></div>
-        <div class = "action-text">
+
+      <div class="image-text">
+        <div class="action-img" style="background-image: url(./images/camp.jpg);"></div>
+        <div class="action-text">
           <br>
-            <h1 style = "margin-bottom:2vh;">Camps and Programs</h1>
-            <h3>We offer interactive courses from a full curriculum, taught at different levels by olympiad winners and astronomy enthusiasts. <a href = "./courses.html">Register now!</a></h3>
+          <h1 style="margin-bottom:2vh;">Camps and Programs</h1>
+          <h3>We offer interactive courses from a full curriculum, taught at different levels by olympiad winners and
+            astronomy enthusiasts. <a href="./courses.html">Register now!</a></h3>
         </div>
       </div>
-      
-      <div class = "image-text">
-        <div class = "action-text">
-          <h1 style = "margin-bottom:2vh;">Astrophotography and Observation</h1>
-          <h3>We offer guidance in astrophotography and observation at all budget levels, so everyone can experience the true beauty of our universe. <a href = "./index.html">UNDER DEVELOPMENT</a></h3>
+
+      <div class="image-text">
+        <div class="action-text">
+          <h1 style="margin-bottom:2vh;">Astrophotography and Observation</h1>
+          <h3>We offer guidance in astrophotography and observation at all budget levels, so everyone can experience the
+            true beauty of our universe. <a href="./index.html">UNDER DEVELOPMENT</a></h3>
         </div>
-        <div class = "action-img" style = "background-image: url(./images/astrophoto.jpg);"></div>
+        <div class="action-img" style="background-image: url(./images/astrophoto.jpg);"></div>
       </div>
-      <div class = "image-text">
-        <div class = "action-img" style = "background-image: url(./images/research.jpg);"></div>
-        <div class = "action-text">
-          <h1 style = "margin-bottom:2vh;">Research</h1>
-          <h3>We offer guidance through scientific research, mentorship, geared towards astronomy. <a href = "./index.html">UNDER DEVELOPMENT</a></h3>
+      <div class="image-text">
+        <div class="action-img" style="background-image: url(./images/research.jpg);"></div>
+        <div class="action-text">
+          <h1 style="margin-bottom:2vh;">Research</h1>
+          <h3>We offer guidance through scientific research, mentorship, geared towards astronomy. <a
+              href="./index.html">UNDER DEVELOPMENT</a></h3>
         </div>
       </div>
     </div>
     <div class="container">
-      <h1>Our  <div style = "display: inline;-webkit-background-clip: text; -webkit-text-fill-color: transparent; background-image: url(images/background.gif); background-size: cover;">Executives</div></h1>
-      <div style = "display:flex !important; flex-direction: row !important; height: fit-content; text-align: center; margin:auto; justify-content: space-evenly; flex-wrap: wrap;">
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src="./images/profiles/kishor.png" alt="Avatar">
-              <h1>Kishor Rajmohan</h1>
-              <h3>Founder & CEO</h3>
-            </div>
-            <div class="flip-card-back">
-              <h1>Kishor Rajmohan</h1>
-              <h3>Founder & CEO</h3>
-              <h3>Kishor is a sophomore at Palo Alto High, passionate about Astronomy and teaching ever since he saw the documentary series <i>COSMOS</i> in the 5th grade. He noticed that nearly no one shared this same passion with him, and he wanted to change that through Quest Andromeda.</h3>
-              
-              <!-- <div class = "socials">
-                <a style = "float:bottom;" href = "mailto:placeholder@gmail.com"><img class = "cardImage" src = "./images/logos/email.png"/></a>
-                <a style = "float:bottom;"><img class = "cardImage" src = "./images/logos/insta.png"/></a>
-                <a style = "float:bottom;"><img class = "cardImage" src = "./images/logos/linkedin.png"/></a>
-                <a style = "float:bottom;"><img class = "cardImage" src = "./images/logos/discord.png"/></a></div> -->
-            </div>
-          </div>
+      <h1>By the numbers:</h1>
+      <div class="threeSection">
+        <div style="width:33%; background-color:red;">
+          <img class="sectionImage" style="position:relative; height:30vh; width: 30vh" src="./images/globe.png" />
         </div>
+        <div style="width:33%; background-color:red;">
+          <canvas id="questbythenumber" style="height: 30vh; width: 30vh">
 
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src="./images/profiles/andrey.png" alt="Avatar">
-              <h1>Andrey Nikitin</h1>
-              <h3>Chief Operating Officer</h3>
-            </div>
-            <div class="flip-card-back">
-              <h1>Andrey Nikitin</h1>
-              <h3>Chief Operating Officer</h3>
-              <h3>Andrey is a freshman at UF. Over the years, he has pursued many subjects, but in the end, the stars always caught his gaze. Now, he hopes to extend that passion to the next generation, teaching them to unlock the secrets of the universe hidden in plain sight. </h3>
-              <!-- <div class = "socials">
-                <a style = "float:bottom;" href = "mailto:placeholder@gmail.com"><img class = "cardImage" src = "./images/logos/email.png"/></a>
-                <a style = "float:bottom;"><img class = "cardImage" src = "./images/logos/insta.png"/></a><a style = "float:bottom;"><img class = "cardImage" src = "./images/logos/linkedin.png"/></a>
-                <a style = "float:bottom;"><img class = "cardImage" src = "./images/logos/discord.png"/></a></div> -->
-            </div>
-          </div>
+          </canvas>
         </div>
-        
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src="./images/profiles/connor.jpg" alt="Avatar">
-              <h1>Connor Lee</h1>
-              <h3>Chief Technology Officer</h3>
-            </div>
-            <div class="flip-card-back">
-              <h1>Connor Lee</h1>
-              <h3>Chief Technology Officer</h3>
-              <h3>Connor Lee is a sophomore at Palo Alto High. He loves programming and science, and wanted to help Quest Andromeda make a difference through his skills in web development. He shares the same hopes as everyone else in the QA crew; the hope to change the world.</h3>
-              <!-- <div class = "socials">
-                <a style = "float:bottom;" href = "mailto:placeholder@gmail.com"><img class = "cardImage" src = "./images/logos/email.png"/></a>
-                <a style = "float:bottom;"><img class = "cardImage" src = "./images/logos/insta.png"/></a>
-                <a style = "float:bottom;"><img class = "cardImage" src = "./images/logos/linkedin.png"/></a>
-                <a style = "float:bottom;"><img class = "cardImage" src = "./images/logos/discord.png"/></a></div> -->
-            </div>
-          </div>
-        </div>
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src="./images/profiles/jerry.png" alt="Avatar">
-              <h1>Jerry Yan</h1>
-              <h3>Chief Technology Officer</h3>
-            </div>
-            <div class="flip-card-back">
-              <h1>Jerry Yan</h1>
-              <h3>Chief Technology Officer</h3>
-              <h3>Jerry Yan is a sophmore at Palo Alto High, and is passionate about astronomy, science, business, and programming. After coming to his schools astronomy club, he realized how amazing astronomy is, and he hopes to help change the world through Quest Andromeda.</h3>
-              <!-- <div class = "socials">
-                <a href = "mailto:imzihaoi@gmail.com" style = "float:bottom;"><img class = "cardImage" src = "./images/logos/email.png"/></a>
-                <a style = "float:bottom;"><img class = "cardImage" src = "./images/logos/insta.png"/></a>
-                <a style = "float:bottom;"><img class = "cardImage" src = "./images/logos/linkedin.png"/></a>
-                <a style = "float:bottom;"><img class = "cardImage" src = "./images/logos/discord.png"/></a></div> -->
-            </div>
-          </div>
-        </div>
-    
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src="./images/profiles/arnob.png" alt="Avatar">
-              <h1>Arnob Datta</h1>
-              <h3>Chief Financial Officer</h3>
-            </div>
-            <div class="flip-card-back">
-              <h1>Arnob Datta</h1>
-              <h3>Cheif Financial Officer</h3>
-              <h3>Arnob is a homeschooled senior from Bangladesh. As a STEM enthusiast, he has represented his nation in numerous Olympiads and competitions. His experience with studying college level astrophysics and astrophotography drove him to join QA, where he wants to help grow passion in astronomy.</h3>
-              <!-- <div class = "socials"><a style = "float:bottom;"><img class = "cardImage" src = "./images/logos/email.png"/></a><a style = "float:bottom;"><img class = "cardImage" src = "./images/logos/insta.png"/></a><a style = "float:bottom;"><img class = "cardImage" src = "./images/logos/linkedin.png"/></a><a style = "float:bottom;"><img class = "cardImage" src = "./images/logos/discord.png"/></a></div> -->
-            </div>
-          </div>
-        </div>
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src="./images/profile.png" alt="Avatar">
-              <h1>JOIN US</h1>
-              <h3>Cheif Marketing Officer</h3>
-            </div>
-            <div class="flip-card-back">
-              <h1>Join Us</h1>
-              <h3>Cheif Marketing Officer</h3>
-              <h3>A Chief Marketing Officer is in charge of online advertising of our organization, our camps, and our events. It is a 4-6h time commitement per week. Contact us now with your qualifications!</h3>
-              <!-- <div class = "socials"><a style = "float:bottom;"><img class = "cardImage" src = "./images/logos/email.png"/></a><a style = "float:bottom;"><img class = "cardImage" src = "./images/logos/insta.png"/></a><a style = "float:bottom;"><img class = "cardImage" src = "./images/logos/linkedin.png"/></a><a style = "float:bottom;"><img class = "cardImage" src = "./images/logos/discord.png"/></a></div> -->
-            </div>
-          </div>
+        <div style="width:33%; background-color:red;">
+          <canvas style="height: 30vh; width: 30vh">
+
+          </canvas>
         </div>
       </div>
     </div>
-    
-    <div class = "container" style = "height:30vh; display: block;">
-      <br><br><br><br>
-      <h1 style = "text-align: center; vertical-align: middle !important;"><a href = "./join.html">Join us as an</a><div style = "display: inline;-webkit-background-clip: text; -webkit-text-fill-color: transparent; background-image: url('./images/Web Background.gif'); background-size: cover;">  instructor/director</h1>
+    <div class="container">
+      <h1>Our <div
+          style="display: inline;-webkit-background-clip: text; -webkit-text-fill-color: transparent; background-image: url(images/background.gif); background-size: cover;">
+          Executives</div>
+      </h1>
+      <div
+        style="display:flex !important; flex-direction: row !important; height: fit-content; text-align: center; margin:auto; justify-content: space-evenly; flex-wrap: wrap;">
+
+        <div class="profile-card">
+          <img class="profile-photo" src="./images/profiles/kishor.png" alt="Avatar">
+          <h1 class="profile-name">Kishor Rajmohan</h1>
+          <h3 class="profile-position">Founder & CEO</h3>
+          <div class="description-temp-cont">
+            <h3 class="profile-description">Kishor is a sophomore at Palo Alto High, passionate about Astronomy and
+              teaching ever since he saw the documentary series <i>COSMOS</i> in the 5th grade. He noticed that nearly
+              no one shared this same passion with him, and he wanted to change that through Quest Andromeda.</h3>
+          </div>
+        </div>
+
+        <div class="profile-card">
+          <img class="profile-photo" src="./images/profiles/andrey.png" alt="Avatar">
+          <h1 class="profile-name">Andrey Nikitin</h1>
+          <h3 class="profile-position">Chief Operating Officer</h3>
+          <div class="description-temp-cont">
+            <h3 class="profile-description">Andrey is a freshman at UF. Over the years, he has pursued many subjects,
+              but in the end, the stars always caught his gaze. Now, he hopes to extend that passion to the next
+              generation, teaching them to unlock the secrets of the universe hidden in plain sight.</h3>
+          </div>
+        </div>
+
+        <div class="profile-card">
+          <img class="profile-photo" src="./images/profiles/connor.jpg" alt="Avatar">
+          <h1 class="profile-name">Connor Lee</h1>
+          <h3 class="profile-position">Chief Technology Officer</h3>
+          <div class="description-temp-cont">
+            <h3 class="profile-description">Connor Lee is a sophomore at Palo Alto High. He loves programming and
+              science, and wanted to help Quest Andromeda make a difference through his skills in web development. He
+              shares the same hopes as everyone else in the QA crew; the hope to change the world.</h3>
+          </div>
+        </div>
+
+        <div class="profile-card">
+          <img class="profile-photo" src="./images/profiles/jerry.png" alt="Avatar">
+          <h1 class="profile-name">Jerry Yan</h1>
+          <h3 class="profile-position">Chief Technology Officer</h3>
+          <div class="description-temp-cont">
+            <h3 class="profile-description">Jerry Yan is a sophmore at Palo Alto High, and is passionate about
+              astronomy, science, business, and programming. After coming to his schools astronomy club, he realized how
+              amazing astronomy is, and he hopes to help change the world through Quest Andromeda.</h3>
+          </div>
+        </div>
+
+        <div class="profile-card">
+          <img class="profile-photo" src="./images/profiles/arnob.png" alt="Avatar">
+          <h1 class="profile-name">Arnob Datta</h1>
+          <h3 class="profile-position">Chief Financial Officer</h3>
+          <div class="description-temp-cont">
+            <h3 class="profile-description">Arnob is a homeschooled senior from Bangladesh. As an ardent STEM
+              enthusiast, he has participated in many national and international Olympiads, and was on the Bengaladesh
+              IOAA team in 2023. His experience at IOAA and with astrophotography drove him to join Quest Andromeda,
+              where he wants to help grow passion in astronomy.</h3>
+          </div>
+        </div>
+
+        <div class="profile-card">
+          <img class="profile-photo" src="./images/profile.png" alt="Avatar">
+          <h1 class="profile-name">JOIN US</h1>
+          <h3 class="profile-position">Chief Marketing Officer</h3>
+          <div class="description-temp-cont">
+            <h3 class="profile-description">A Chief Marketing Officer is in charge of online advertising of our
+              organization, our camps, and our events. It is a 4-6h time commitement per week. Contact us now with your
+              qualifications!</h3>
+          </div>
+        </div>
+
+      </div>
     </div>
-      <!-- <div style = "display: flex; flex-direction: row; flex-flow: row wrap;  justify-content: space-evenly;">
-        
-      </div> -->
+
+    <div class="container" style="height:30vh; display: block;">
+      <br><br><br><br>
+      <h1 style="text-align: center; vertical-align: middle !important;"><a href="./join.html">Join us as an</a>
+        <div
+          style="display: inline;-webkit-background-clip: text; -webkit-text-fill-color: transparent; background-image: url('./images/Web Background.gif'); background-size: cover;">
+          instructor/director
+      </h1>
+    </div>
   </section>
-  
-  <footer id="footer"  style="z-index: -2;">
+
+  <footer id="footer" style="z-index: -2;">
     <div class="container">
       <h1>Contact Us</h1>
       <h3>+1 (650) 441-7147</h3>
       <h3>quest.andromeda1@gmail.com</h3>
-      <!-- <h1>Headquarters</h1>
-      <h3>1356 Neil deGrasse Tyson lane, Andromeda Galaxy 58631</h3> -->
-      <!-- <br>
-      <h1>Note</h1>
-      <h3>Branching a path through space</h3>
-      <h3>The quest to Andromeda</h3>
-      <h3>Copyright © 2023 Quest Andromeda</h3> -->
     </div>
 
     <div class="container">
@@ -238,18 +237,17 @@
     </div>
 
     <div class="container">
-      <h1><a href = "./index.html">
-        <!-- <img style = "position: relative; top:0.4vh;padding-right: 0.25vh;width:5vh; height: 5vh" src = "images/Logo.png"/> -->
-        Quest Andromeda</h1></a>
+      <h1><a href="./index.html">
+          Quest Andromeda</h1></a>
       <h3>Proliferating passion in Astronomy and Astrophysics</h3>
-      <!-- <br>
-      <h1>Contact</h1>
-      <h3><a href="/contact.html">Contact Us</a></h3>
-      <h3>We are excited to have you!</h3>
-      <h3>Send us an email, text, or call</h3> -->
+      <br>
+      <h3>Copyright © 2023 Quest Andromeda</h3>
+      <br>
+      <h3>v 2.0.0</h3>
     </div>
-  </footer>
-  
+  </footer> -->
+
   <script src="./index.js"></script>
 </body>
-</html>    
+
+</html>
